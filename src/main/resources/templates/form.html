@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>VAT Calculator</title>
+</head>
+<body>
+<h1>VAT Calculator</h1>
+<form method="post" action="/results">
+  <label for="price">Product price with VAT:</label>
+  <input type="number" step="0.01" name="price" required>
+  <br>
+  <label for="quantity">Quantity:</label>
+  <input type="number" name="quantity" required>
+  <br>
+  <button type="submit">Calculate</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>VAT Calculation Results</title>
+</head>
+<body>
+<h1>VAT Calculation Results</h1>
+<p>Unit price without VAT: <span th:text="${unitPriceWithoutVat}"></span></p>
+<p>Unit VAT: <span th:text="${unitVat}"></span></p>
+<p>Unit price with VAT: <span th:text="${price}"></span></p>
+<p>Quantity: <span th:text="${quantity}"></span></p>
+<p>Total price without VAT: <span th:text="${totalPriceWithoutVat}"></span></p>
+<p>Total VAT: <span th:text="${totalVat}"></span></p>
+<p>Total price with VAT: <span th:text="${totalPrice}"></span></p>
+
+<a href="/">Go back to the form</a>
+</body>
+</html>
